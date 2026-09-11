@@ -147,9 +147,46 @@ Assim como no gerenciamento de clientes, é possível realizar operações de ca
 
 ---
 
-# ▶️ Como Executar o Projeto
+🏗️ Arquitetura
+O projeto utiliza o padrão arquitetural MVC (Model-View-Controller).
 
-## 1. Clone o repositório
+Model
+Responsável pela representação dos dados e das entidades utilizadas pelo sistema, como:
 
-```bash
-git clone https://github.com/mariaclarinhaw208/AcademiaCrud3.git
+Cliente
+Produto
+View
+Responsável pela interface apresentada ao usuário, utilizando Razor Views, HTML, CSS e Bootstrap.
+
+Controller
+Responsável por receber as requisições, executar as operações necessárias e direcionar os dados para as Views.
+
+🔄 Operações CRUD
+O sistema implementa as quatro principais operações de um CRUD:
+
+Operação	Descrição
+Create	Cadastro de novos clientes e produtos
+Read	Consulta e visualização dos registros
+Update	Alteração de registros existentes
+Delete	Exclusão de registros
+
+💻 Desenvolvido com
+C#
+ASP.NET Core MVC
+.NET
+Entity Framework Core
+SQL Server
+Bootstrap
+Razor Views
+HTML
+CSS
+JavaScript
+jQuery
+👨‍💻 Autores
+Desenvolvedor
+Maria Clara Santos Bezerra
+
+Professor
+Wallace Oliveira dos Santos
+
+
