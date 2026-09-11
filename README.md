@@ -146,47 +146,73 @@ A listagem apresenta informações como:
 Assim como no gerenciamento de clientes, é possível realizar operações de cadastro, consulta, alteração e exclusão dos registros.
 
 ---
+## 🏗️ Arquitetura
 
-🏗️ Arquitetura
-O projeto utiliza o padrão arquitetural MVC (Model-View-Controller).
+O projeto utiliza o padrão arquitetural **MVC (Model-View-Controller)**, que organiza a aplicação em três principais componentes:
 
-Model
-Responsável pela representação dos dados e das entidades utilizadas pelo sistema, como:
+### Model
 
-Cliente
-Produto
-View
-Responsável pela interface apresentada ao usuário, utilizando Razor Views, HTML, CSS e Bootstrap.
+Responsável pela representação dos dados e das entidades utilizadas pelo sistema.
 
-Controller
-Responsável por receber as requisições, executar as operações necessárias e direcionar os dados para as Views.
+As principais entidades são:
 
-🔄 Operações CRUD
+- **Cliente**
+- **Produto**
+
+### View
+
+Responsável pela interface apresentada ao usuário.
+
+As telas do sistema foram desenvolvidas utilizando:
+
+- Razor Views
+- HTML
+- CSS
+- Bootstrap
+
+### Controller
+
+Responsável por receber as requisições do usuário, executar as operações necessárias e direcionar os dados para as respectivas Views.
+
+---
+
+## 🔄 Operações CRUD
+
 O sistema implementa as quatro principais operações de um CRUD:
 
-Operação	Descrição
-Create	Cadastro de novos clientes e produtos
-Read	Consulta e visualização dos registros
-Update	Alteração de registros existentes
-Delete	Exclusão de registros
+| Operação | Descrição |
+|----------|-----------|
+| **Create** | Cadastro de novos clientes e produtos |
+| **Read** | Consulta e visualização dos registros cadastrados |
+| **Update** | Alteração de registros existentes |
+| **Delete** | Exclusão de registros |
 
-💻 Desenvolvido com
-C#
-ASP.NET Core MVC
-.NET
-Entity Framework Core
-SQL Server
-Bootstrap
-Razor Views
-HTML
-CSS
-JavaScript
-jQuery
-👨‍💻 Autores
-Desenvolvedor
-Maria Clara Santos Bezerra
+---
 
-Professor
-Wallace Oliveira dos Santos
+## 💻 Desenvolvido com
+
+- C#
+- ASP.NET Core MVC
+- .NET
+- Entity Framework Core
+- SQL Server
+- Bootstrap
+- Razor Views
+- HTML
+- CSS
+- JavaScript
+- jQuery
+
+---
+
+## 👨‍💻 Autores
+
+### Desenvolvedor
+
+**Maria Clara Santos Bezerra**
+
+### Professor
+
+**Wallace Oliveira dos Santos**
 
 
